@@ -26,9 +26,15 @@ export default function Home() {
         CYBER <span className="text-accent">AI</span>
       </h1>
       <p className="mt-2 text-slate-400">
-        Socle Phase 0 — le squelette est en place. Chat, OSINT et CTI arrivent
-        dans les phases suivantes.
+        Socle en place. Le chat en streaming est disponible ; OSINT et CTI
+        arrivent dans les phases suivantes.
       </p>
+      <a
+        href="/chat"
+        className="mt-4 inline-block rounded bg-accent px-4 py-2 font-medium text-bg"
+      >
+        Ouvrir le chat →
+      </a>
 
       <section className="mt-8 rounded-lg bg-panel p-6">
         <h2 className="mb-4 text-lg font-semibold">
