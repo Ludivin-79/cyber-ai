@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Node / Next
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-error.log*
+
+# Env & secrets — NEVER commit real secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Data & volumes
+data/
+*.sqlite3
+uploads/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.log
